@@ -11,7 +11,7 @@ st.set_page_config(
 )
 
 # --- Carregamento dos dados ---
-df = pd.read_csv('data\\salaries_cleaned.csv')
+df = pd.read_csv('https://raw.githubusercontent.com/TheGabrielVieira/data-jobs-python/refs/heads/main/data/salaries_cleaned.csv')
 
 # --- Barra Lateral (Filtros) ---
 st.sidebar.header("🔍 Filtros")
